@@ -1,0 +1,14 @@
+.primary{
+	margin: 10px auto;
+	width: 160px;
+	height: 160px;
+	color: white;
+	line-height: 160px; 
+	text-align: center;
+	background-color: green;
+	transition: background-color 5s, border-radius 5s;
+}
+.primary:hover {
+	border-radius: 80px;
+	background-color: orange;
+}
